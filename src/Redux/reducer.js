@@ -135,6 +135,7 @@ export const reducer = (state = initState, action) => {
         ...state,
         filterDataLoading: false,
         filterDatas: action.payload,
+        allCharacterDatas: action.payload,
         paginationDatas: action.payload.slice(0, 11),
       }
 

@@ -107,6 +107,9 @@ class Home extends Component {
           </div>
         </div>
         <div className="row mb-5" style={{ backgroundColor: '#fce1d5' }}>
+          {paginationDatas.length === 0 ? (
+            <h1 style={{ marginLeft: '40vw' }}>No Data Available</h1>
+          ) : null}
           {paginationDatas &&
             paginationDatas.map((item) => (
               <div className="col-12 col-sm-6 col-xl-4" key={item.char_id}>
