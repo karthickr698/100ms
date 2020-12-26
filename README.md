@@ -17,6 +17,8 @@ To get started and know better here is the list of the features build inside thi
 
 2.Profile page where it will display all the details of the character .
 
+<p> <img src  = "/public/profile.png"> </p>
+
 ## Getting Started Follow this simple steps to start using this application
 
 ### Client
