@@ -1,0 +1,80 @@
+button {
+  font-size: 23px !important;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+.heading1 {
+  margin-left: 50% !important;
+}
+.card div {
+  font-family: 'Kalam', cursive;
+}
+.contents {
+  font-weight: normal;
+  padding-left: 2rem;
+  padding-top: 10px;
+  color: white;
+  height: 8rem;
+  font-size: 1rem;
+}
+.link {
+  text-align: center;
+}
+.name {
+  font-size: 1.3rem;
+  font-weight: bold !important;
+}
+.meal {
+  color: #fb6621;
+  font-weight: bold;
+}
+.page-item {
+  background-color: #fb6621;
+  color: white;
+  border: none;
+  outline: none;
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 2px 2px 20px rgb(185, 185, 185);
+  border-radius: 10px;
+}
+
+.active {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #fb6621;
+  box-shadow: 2px 2px 20px rgb(185, 185, 185);
+}
+li {
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+
+.page-item:hover {
+  background-color: white;
+  color: #fb6621;
+}
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+  .search {
+    margin: 0 !important;
+    padding-top: 2rem !important;
+    margin-top: 2rem !important;
+  }
+}
