@@ -5,7 +5,7 @@ This project was created with React [Create React App](https://github.com/facebo
 Design and implement a user interface that allows a user to view a list of breaking bad characyers. On clicking on any character, it will display all the information of the character. The user can search the characters based on name. The user can also sort the characters based on category. Pagination is also added for the list.
 <br>
 <br>
-<a href = "https://foodmonk-app.netlify.app/">
+<a href = "https://breaking-bad-characters-appp.netlify.app/">
 <button style = "background:red,padding:5px">Demo Link of the assignment</button>
 </a>
 
@@ -21,7 +21,7 @@ To get started and know better here is the list of the features build inside thi
 
 ### Client
 
-1.  git clone https://github.com/karthickr698/foodMonk-assignment
-2.  cd foodMonk/
+1.  git clone https://github.com/karthickr698/100ms.git
+2.  cd 100ms/
 3.  npm install
 4.  npm start
